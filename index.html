@@ -5,7 +5,7 @@
     <script>
         const query = window.location.search || '';
         const hash = window.location.hash || '';
-        const redirectUri = 'com.benched.mobile://oauth2redirect' + query + hash;
+        const redirectUri = 'com.benched.app://oauth2redirect' + query + hash;
         window.location.replace(redirectUri);
     </script>
 </head>
